@@ -1,9 +1,11 @@
 <?php
 namespace App;
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 require 'admin.php';
+Auth::routes();
 /*
 |--------------------------------------------------------------------------
 | Web Routes
