@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Traits\FlashMessages;
+use App\Http\Controllers\Controller;
 
 class BaseController extends Controller
 {
